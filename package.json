@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,10 @@
     "url": "https://github.com/steller520/node_project_01/issues"
   },
   "homepage": "https://github.com/steller520/node_project_01#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0",
+    "nodemon": "^3.1.11"
+  }
 }
