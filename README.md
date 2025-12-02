@@ -176,12 +176,12 @@ This section provides screenshots from API testing with ThunderClient and from t
 ### 2. MongoDB Database Screenshots
 
 **Users Collection**
-![Users Collection](screenshots/user/users_collection.png)
+![Users Collection](screenshots/user/usersmongoDB.png)
 
 **Products Collection**
-![Products Collection](screenshots/products/products_collection.png)
+![Products Collection](screenshots/products/productsmongoDB.png)
 
 **Carts Collection**
-![Carts Collection](screenshots/cart/carts_collection.png)
+![Carts Collection](screenshots/cart/cartsmongoDB.png)
 
 ---
