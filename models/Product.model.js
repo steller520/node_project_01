@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
+// This defines the schema for the Product model
 const productSchema = new Schema({
     name: { type: String, required: true },
     price: { type: Number, required: true },

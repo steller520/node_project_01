@@ -5,14 +5,14 @@ const { Schema } = mongoose;
 const cartItemSchema = new Schema({
     productId: {
         type: Schema.Types.ObjectId,
-        ref: 'Product',
+        ref: 'Product', // Reference to the Product model
         required: true
     },
     quantity: {
         type: Number,
         required: true,
-        min: 1,
-        default: 1
+        min: 1, // Minimum quantity is 1
+        default: 1 // Default quantity is 1
     }
 }, { _id: false }); // _id: false prevents MongoDB from creating a separate ID for each sub-item
 
@@ -20,8 +20,8 @@ const cartItemSchema = new Schema({
 const cartSchema = new Schema({
     userId: {
         type: Schema.Types.ObjectId,
-        ref: 'User',
-        required: true,
+        ref: 'User', // Reference to the User model
+        required: true, // Each cart must be associated with a user
         unique: true // Ensures one cart per user
     },
     items: [cartItemSchema] // The cart holds an array of items
