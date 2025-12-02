@@ -1,5 +1,6 @@
 const Joi = require('joi');
 
+// Validation schema for product operations
 const productSchema = Joi.object({
     name: Joi.string().required(),
     price: Joi.number().positive().required(),
