@@ -125,51 +125,63 @@ This section provides screenshots from API testing with ThunderClient and from t
 #### User Authentication
 
 **POST /register - Register a New User**
-![Register User](path/to/your/register-user-screenshot.png)
+![Register User](screenshots/user/register_user.png)
 
 **POST /login - Login User and Get JWT**
-![Login User](path/to/your/login-user-screenshot.png)
+![Login User](screenshots/user/login_user.png)
 
 ---
 
 #### Product Routes
 
 **GET /products - Fetch All Products**
-![Fetch All Products](path/to/your/get-products-screenshot.png)
+![Fetch All Products](screenshots/products/fetch_products.png)
+
+**GET /products/:id - Fetch a Single Product**
+![Fetch Single Product](screenshots/products/fetch_product.png)
 
 **POST /products - Create a New Product**
-![Create Product](path/to/your/create-product-screenshot.png)
+![Create Product](screenshots/products/create_product.png)
+
+**PUT /products/:id - Update an Existing Product**
+![Update Product](screenshots/products/update_product.png)
+
+**DELETE /products/:id - Delete a Product**
+![Delete Product](screenshots/products/delete_product.png)
 
 ---
 
 #### Cart Routes (Authenticated)
 
 **GET /cart - Fetch User's Cart**
-![Fetch Cart](path/to/your/get-cart-screenshot.png)
+![Fetch Cart](screenshots/cart/fetch_cart.png)
 
 **POST /cart - Add Item to Cart**
-![Add to Cart](path/to/your/add-to-cart-screenshot.png)
+![Add to Cart](screenshots/cart/add_to_cart.png)
 
 **PUT /cart - Update Item Quantity**
-![Update Quantity](path/to/your/update-quantity-screenshot.png)
+![Update Quantity](screenshots/cart/update_quantity.png)
 
 **DELETE /cart/:productId - Remove a Single Item**
-![Remove Single Item](path/to/your/remove-item-screenshot.png)
+![Remove Single Item](screenshots/cart/remove_item.png)
 
 **DELETE /cart - Empty the Entire Cart**
-![Empty Cart](path/to/your/empty-cart-screenshot.png)
+![Empty Cart](screenshots/cart/empty_cart.png)
+
+**POST /cart - Unauthorized Access**
+![Unauthorized Access](screenshots/cart/withoutToken.png)
 
 ---
 
 ### 2. MongoDB Database Screenshots
 
 **Users Collection**
-![Users Collection](path/to/your/users-collection-screenshot.png)
+![Users Collection](screenshots/user/users_collection.png)
 
 **Products Collection**
-![Products Collection](path/to/your/products-collection-screenshot.png)
+![Products Collection](screenshots/products/products_collection.png)
 
 **Carts Collection**
-![Carts Collection](path/to/your/carts-collection-screenshot.png)
+![Carts Collection](screenshots/cart/carts_collection.png)
 
 ---
